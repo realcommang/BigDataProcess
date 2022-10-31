@@ -17,4 +17,4 @@ with open(sys.argv[1], "r") as f:
 
 with open(sys.argv[2], "w") as f:
 	for u in ubers:
-		f.write(u[0] + "," + u[1] + "\t" + u[2] + "," + u[3] + "\n") 
+		f.write(u[0] + "," + u[1] + " " + u[2] + "," + u[3] + "\n") 
